@@ -1,0 +1,509 @@
+@media screen and (max-width: 1170px) {
+  .online__container {
+    padding: 120px 015px 050px;
+  }
+
+  .journey__container {
+    padding: 80px 50px;
+  }
+
+  .premium__container {
+    padding: 80px 15px;
+  }
+
+  .journey__items {
+    margin: 0;
+  }
+
+  .block-text__title.title-journey {
+    font-size: 50px;
+  }
+
+  .journey__block-text {
+    margin-bottom: 40px;
+  }
+
+  .fitnes-plan {
+    padding: 80px 0;
+  }
+
+  .title-fitnes-plan {
+    font-size: 75px;
+  }
+
+  .fitnes-plan__text {
+    font-size: 16px;
+  }
+
+  .fitnes-plan__block-text {
+    margin-bottom: 50px;
+  }
+
+  .product__title {
+    font-size: 22px;
+  }
+
+  .fitnes-plan__row {
+    gap: 25px;
+  }
+
+  .benefits__container {
+    margin: 80px auto 50px;
+  }
+
+  .benefits__img {
+    padding: 0;
+  }
+
+  .read {
+    margin: 100px auto;
+  }
+
+  .social {
+    margin-bottom: 80px;
+  }
+
+  .social__item {
+    padding: 0 20px;
+  }
+}
+
+/* =============================1024========================= */
+@media screen and (max-width: 1023.99px) {
+
+
+  .block-text__title {
+    font-size: 50px;
+  }
+
+  .block-text__text {
+    font-size: 14px;
+  }
+
+  .block-text__suptitle {
+    font-size: 10px;
+  }
+
+  .slider__title {
+    font-size: 54px;
+  }
+
+  .journey__item {
+    margin-bottom: 40px;
+  }
+
+  .product__title {
+    font-size: 18px;
+  }
+
+  .product__img {
+    margin-bottom: 15px;
+  }
+
+  .premium__container {
+    padding: 40px 15px;
+  }
+
+  .grid__item {
+    padding-right: 10px;
+    margin-right: -10px;
+  }
+
+  .read__block-text {
+    margin-bottom: 30px;
+  }
+
+  .read,
+  .social {
+    margin: 40px auto;
+  }
+
+  .galary__img-item:not(:last-child) {
+    margin-right: 30px;
+  }
+
+
+}
+
+/* ========================920====================== */
+@media screen and (max-width: 919.9px) {
+  .journey__item {
+
+    max-width: 100%;
+  }
+
+  .title-fitnes-plan {
+    font-size: 50px;
+  }
+
+  .benefits__content {
+    flex-direction: column;
+  }
+
+  .read {
+    margin: 40px auto;
+  }
+
+  .read__title {
+    font-size: 50px;
+  }
+
+  .read__text {
+    font-size: 16px;
+  }
+
+  .social__item a {
+    font-size: 20px;
+  }
+
+  .social__item span {
+    display: none;
+  }
+
+  .social__icon {
+
+    transition: all .2s cubic-bezier(0.88, 0.21, 0, 0.74);
+  }
+
+  .social__icon:hover {
+    transform: rotate(360deg);
+    transition: rotate .2s cubic-bezier(0.88, 0.21, 0, 0.74);
+  }
+
+  .footer {
+    padding: 20px 0 30px 0;
+  }
+}
+
+/* ===========================767===================== */
+
+@media screen and (max-width: 766.99px) {
+  body.lock {
+    overflow: hidden;
+  }
+
+  .btn-header {
+    padding: .7em .7em .7em 2.85em;
+  }
+
+  .header__body {
+    height: 45px;
+  }
+
+  .header__logo {
+    flex: 0 0 70px;
+  }
+
+  .header__burger {
+    display: block;
+    position: relative;
+    width: 35px;
+    z-index: 3;
+    top: 0;
+    left: 0;
+  }
+
+  .header__burger::before,
+  .header__burger::after,
+  .header__burger span {
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-color: #081158;
+    left: 0;
+    transition: .4s;
+  }
+
+  .header__burger::before {
+    content: '';
+    top: -10px;
+  }
+
+  .header__burger::after {
+    content: '';
+    top: 10px;
+  }
+
+  .header__burger.active::before {
+    top: 0;
+    transform: rotate(45deg);
+    transition: all .4s ease 0s;
+  }
+
+  .header__burger.active::after {
+    top: 0;
+    transform: rotate(-45deg);
+    transition: all .4s ease 0s;
+  }
+
+  .header__burger.active span {
+    transform: scale(0);
+    transition: all .4s ease 0s;
+  }
+
+  .header__menu {
+    position: fixed;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: #5b6be7;
+
+    padding: 070px 10px 20px 10px;
+    transition: .8s;
+  }
+
+  .header__menu.active {
+    top: 0;
+    transition: all .6s ease 0s;
+  }
+
+  .header__list {
+    display: block;
+    text-align: center;
+
+  }
+
+  .header__list li {
+    margin: 0 0 20px 0;
+    text-transform: uppercase;
+  }
+
+  .header__basket {
+    z-index: 4;
+  }
+
+  .btn-header {
+    display: inline-block;
+    width: 100%;
+  }
+
+  .online__container {
+    padding: 80px 15px 50px;
+  }
+
+  .online__slider {
+    margin-bottom: 20px;
+  }
+
+  .block-text__suptitle {
+    margin-bottom: 10px;
+  }
+
+  .block-text__title {
+    margin-bottom: 10px;
+  }
+
+  .online__content {
+    padding: 0;
+  }
+
+
+  .online__container {
+    flex-direction: column-reverse;
+
+  }
+
+  .online__block-text {
+    margin-bottom: 20px;
+  }
+
+  .read__grid {
+    justify-content: center;
+
+  }
+
+  .grid__item {
+    max-width: 100%;
+    padding-right: 0px;
+    margin-right: 0px;
+    padding-bottom: 15px;
+  }
+
+  .statistics__items {
+    flex-direction: column;
+  }
+
+  .statistics__item {
+    padding: 25px;
+  }
+
+  .statistics__item-value {
+    font-size: 24px;
+  }
+
+  .statistics__item-text {
+    font-size: 14px;
+  }
+
+  .journey__container {
+    padding: 40px 15px;
+  }
+
+  .fitnes-plan__row {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .fitnes-plan__block-text {
+    margin-bottom: 25px;
+  }
+
+  .gain-do__text {
+    font-size: 50px;
+  }
+
+  .benefits__container {
+    margin: 15px auto 10px;
+  }
+
+  .licencing__list {
+    padding: 10px 10px 30px 0;
+  }
+
+  .footer__item {
+    flex-direction: column;
+  }
+
+  .list-lice a {
+    font-size: 14px;
+  }
+
+  .footer-mail {
+    font-size: 20px;
+  }
+
+}
+
+/* =====================590===================== */
+@media screen and (max-width:590px) {
+  .online__container {
+    padding: 55px 15px 10px;
+  }
+
+  .statistics__item {
+    padding: 15px;
+  }
+
+  .block-text__title.title-journey {
+    font-size: 35px;
+  }
+
+  .journey__container {
+    padding: 15px 15px;
+  }
+
+  .journey__block-text {
+    margin-bottom: 20px;
+  }
+
+  .journey__item-title {
+    margin: 5px;
+    font-size: 22px;
+  }
+
+  .journey__item-text {
+    font-size: 12px;
+  }
+
+  .journey__item {
+    margin-bottom: 15px;
+  }
+
+  .title-fitnes-plan,
+  .read__title {
+    font-size: 35px;
+    margin-bottom: 15px;
+  }
+
+  .fitnes-plan {
+    padding: 15px 0;
+  }
+
+  .fitnes-plan__text,
+  .read__text {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+
+  .gain-do__text {
+    font-size: 35px;
+  }
+
+  .read,
+  .social {
+    margin: 10px auto;
+  }
+}
+
+/* =============================480================== */
+@media screen and (max-width: 480.99px) {
+  .button {
+    font-size: .7em;
+  }
+
+  .button:before {
+    width: .57em;
+    height: .57em;
+    top: 50%;
+    left: 10%;
+  }
+
+  .block-text__title {
+    font-size: 40px;
+  }
+
+  .slider__title {
+    font-size: 35px;
+  }
+
+  .slick-arrow.slick-next,
+  .slick-arrow.slick-prev {
+    width: 50px;
+    height: 50px;
+  }
+
+  .statistics__item-value {
+    font-size: 20px;
+  }
+
+  .statistics__item-text {
+    font-size: 12px;
+  }
+
+  .title-fitnes-plan {
+    font-size: 35px;
+  }
+
+  .gain-do__text {
+    font-size: 25px;
+  }
+
+  .social__list-item {
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+}
+
+/* ============320===================== */
+@media screen and (max-width:330px) {
+  .block-text__title {
+    font-size: 30px;
+  }
+
+  .grid__item {
+    max-width: 75%;
+  }
+
+  .footer-mail {
+    font-size: 16px;
+    padding-bottom: 20px;
+  }
+
+  .licencing__list {
+    padding: 10px 5px 15px 0;
+  }
+
+}
