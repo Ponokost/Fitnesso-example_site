@@ -1,7 +1,7 @@
 html,
 body {
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
   background: rgba(138, 146, 235, .5);
   color: #fff;
   display: flex;
